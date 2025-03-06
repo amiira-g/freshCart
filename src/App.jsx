@@ -25,7 +25,8 @@ import WishList from './Components/WishList/WishList';
 import ShippingAddress from './Components/ShippingAddress/ShippingAddress';
 
 import NewPasswored from './Components/NewPasswored/NewPasswored';
-import CounterContextProvider from '../src/Context/CounterContext';
+import CounterContextProvider from './Context/CounterContext';
+
 
 function App() {
   const router = createBrowserRouter(

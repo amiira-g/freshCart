@@ -25,7 +25,7 @@ import WishList from './Components/WishList/WishList';
 import ShippingAddress from './Components/ShippingAddress/ShippingAddress';
 
 import NewPasswored from './Components/NewPasswored/NewPasswored';
-import CounterContextProvider from './Context/CounterContext';
+import CounterContextProvider from '../src/Context/CounterContext';
 
 
 function App() {

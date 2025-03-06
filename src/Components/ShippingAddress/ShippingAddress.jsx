@@ -1,7 +1,7 @@
 import { Button, Label, TextInput } from 'flowbite-react';
 import { useFormik } from 'formik';
 import React, { useContext, useEffect } from 'react'
-import { CounterContext } from '../../Conttext/CounterContext';
+import { CounterContext } from '../../Context/CounterContext';
 import { Link } from 'react-router-dom';
 import * as Yup from "yup"
 export default function ShippingAddress() {

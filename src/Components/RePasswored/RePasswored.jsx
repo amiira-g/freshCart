@@ -4,7 +4,7 @@ import { useFormik } from 'formik'
 import React, { useContext, useState } from 'react'
 import * as yup from "yup"
 import axios from 'axios'
-import { UserContext } from '../../Conttext/UserContext'
+import { UserContext } from '../../Context/UserContext'
 import toast from 'react-hot-toast'
 
 export default function RePasswored() {

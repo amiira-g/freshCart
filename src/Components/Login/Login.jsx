@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import Style from './Login.module.css'
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
-import { CounterContext } from '../../Conttext/counterContext';
+import { CounterContext } from '../../Context/counterContext';
 import * as Yup from "yup"
 import axios from 'axios';
 

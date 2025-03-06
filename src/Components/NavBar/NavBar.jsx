@@ -3,8 +3,8 @@ import Style from './NavBar.module.css'
 import { useEffect } from 'react';
 import Logo from '../../assets/icon.png'
 import { NavLink, useNavigate } from 'react-router-dom';
-import { CounterContext } from '../../Conttext/counterContext';
-import { UserContext } from '../../Conttext/UserContext';
+import { CounterContext } from '../../Context/counterContext';
+import { UserContext } from '../../Context/UserContext';
 
 
 export default function NavBar(cartDetailse) {

@@ -1,5 +1,5 @@
 
-import { CounterContext } from '../../Conttext/CounterContext';
+import { CounterContext } from '../../Context/CounterContext';
 import Style from './Cart.module.css'
 import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';

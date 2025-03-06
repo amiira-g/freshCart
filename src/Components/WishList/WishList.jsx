@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 import Style from './WishList.module.css'
 import React, { useContext, useEffect, useState } from 'react'
 import axios from 'axios';
-import { CounterContext } from '../../Conttext/CounterContext';
+import { CounterContext } from '../../Context/CounterContext';
 export default function WishList() {
   const [Counter, setCounter] = useState(0)
   const [wishlist, setWishlist] = useState([]);

@@ -3,7 +3,7 @@ import Style from './NavBar.module.css'
 import { useEffect } from 'react';
 import Logo from '../../assets/icon.png'
 import { NavLink, useNavigate } from 'react-router-dom';
-import { CounterContext } from '../../Context/counterContext';
+import { CounterContext } from '../../Context/CounterContext';
 import { UserContext } from '../../Context/UserContext';
 
 
